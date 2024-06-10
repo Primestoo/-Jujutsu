@@ -1,147 +1,55 @@
-/* Resetting some basic styles */
-* {
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background: url('20240610_043444.gif') fixed center/cover no-repeat;
+  height: 100vh;
+  color: white;
 }
 
-/* Body styles */
-body {
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(to bottom, #0b0c10, #1f2833, #0b0c10);
-  color: #c5c6c7;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  overflow-x: hidden;
-  background-image: url('background.jpg'); /* Add a background image related to JJK */
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-/* Header styles */
-header {
-  background: rgba(0, 0, 0, 0.8);
-  padding: 10px 0;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-}
-
-/* Navigation styles */
-nav {
-  display: flex;
-  justify-content: center;
-}
-
-.nav-button {
-  background: none;
-  border: 2px solid #66fcf1;
-  border-radius: 5px;
-  color: #66fcf1;
-  cursor: pointer;
-  font-size: 16px;
-  margin: 0 10px;
-  padding: 10px 20px;
-  transition: background 0.3s, color 0.3s, transform 0.3s;
-}
-
-.nav-button:hover {
-  background: #66fcf1;
-  color: #0b0c10;
-  transform: scale(1.1);
-}
-
-/* Container styles */
 .container {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
   text-align: center;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.7); /* Darken background for better text readability */
-  border-radius: 10px;
 }
 
-/* Title1 styles */
 .title1 {
-  font-size: 48px;
-  color: #66fcf1;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 4px #000000;
+  font-size: 36px;
+  color: #1e90ff;
 }
 
-/* Title2 styles */
 .title2 {
-  font-size: 32px;
-  background: linear-gradient(to right, #66fcf1, #ffffff);
+  font-size: 24px;
+  background: linear-gradient(to right, #00bfff, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 10px;
-  text-shadow: 2px 2px 4px #000000;
+  margin-top: 20px;
 }
 
-/* Text styles */
 .text {
-  font-size: 20px;
-  margin-bottom: 20px;
-  max-width: 600px;
-  line-height: 1.6;
-  color: #c5c6c7;
+  margin-top: 20px;
+  font-size: 18px;
 }
 
-/* Server link styles */
 .server-link {
-  font-size: 22px;
-  color: #66fcf1;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #1e90ff;
   text-decoration: underline;
   cursor: pointer;
-  transition: color 0.3s, text-shadow 0.3s;
 }
 
-.server-link:hover {
-  color: #45a29e;
-  text-shadow: 0 0 10px #66fcf1;
-}
-
-/* Button styles */
 .button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #66fcf1;
-  color: #0b0c10;
+  background-color: #1e90ff;
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s, transform 0.3s;
 }
 
-.button:hover {
-  background-color: #45a29e;
-  transform: scale(1.05);
-}
-
-/* Media query for responsiveness */
-@media (max-width: 600px) {
-  .title1 {
-    font-size: 36px;
-  }
-  
-  .title2 {
-    font-size: 24px;
-  }
-  
-  .text {
-    font-size: 18px;
-  }
-  
-  .server-link {
-    font-size: 20px;
-  }
+button:hover {
+  background-color: #0d74b3;
 }
