@@ -4,21 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>/Jujutsu</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css" id="stylesheet">
 </head>
 <body>
-<header>
-  <nav>
-    <button class="nav-button" onclick="redirectToHome()">Home</button>
-    <button class="nav-button" onclick="redirectToRules()">Rules</button>
-  </nav>
-</header>
-<main class="container">
+<div class="container">
   <h1 class="title1">/Jujutsu</h1>
   <h2 class="title2">Join Our Server</h2>
   <p class="text">Anime themed, you can talk about something else if you desire.</p>
   <p class="server-link" onclick="redirectToDiscord()">discord.gg/Jujutsu</p>
-</main>
-<script src="scripts.js"></script>
+  <button class="button" onclick="redirectToRules()">Rules</button>
+  <button class="button" onclick="toggleDarkMode()">Dark Mode</button>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
