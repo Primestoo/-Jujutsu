@@ -8,12 +8,15 @@
 /* Body styles */
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to bottom, #3a0059, #000000, #4d4d4d);
-  color: white;
+  background: linear-gradient(to bottom, #0b0c10, #1f2833, #0b0c10);
+  color: #c5c6c7;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   overflow-x: hidden;
+  background-image: url('background.jpg'); /* Add a background image related to JJK */
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Header styles */
@@ -35,9 +38,9 @@ nav {
 
 .nav-button {
   background: none;
-  border: 2px solid #1e90ff;
+  border: 2px solid #66fcf1;
   border-radius: 5px;
-  color: #1e90ff;
+  color: #66fcf1;
   cursor: pointer;
   font-size: 16px;
   margin: 0 10px;
@@ -46,8 +49,8 @@ nav {
 }
 
 .nav-button:hover {
-  background: #1e90ff;
-  color: white;
+  background: #66fcf1;
+  color: #0b0c10;
   transform: scale(1.1);
 }
 
@@ -60,24 +63,28 @@ nav {
   align-items: center;
   text-align: center;
   padding: 20px;
+  background: rgba(0, 0, 0, 0.7); /* Darken background for better text readability */
+  border-radius: 10px;
 }
 
 /* Title1 styles */
 .title1 {
   font-size: 48px;
-  color: #1e90ff;
+  color: #66fcf1;
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /* Title2 styles */
 .title2 {
   font-size: 32px;
-  background: linear-gradient(to right, #00bfff, #ffffff);
+  background: linear-gradient(to right, #66fcf1, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 10px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /* Text styles */
@@ -86,28 +93,29 @@ nav {
   margin-bottom: 20px;
   max-width: 600px;
   line-height: 1.6;
+  color: #c5c6c7;
 }
 
 /* Server link styles */
 .server-link {
   font-size: 22px;
-  color: #1e90ff;
+  color: #66fcf1;
   text-decoration: underline;
   cursor: pointer;
   transition: color 0.3s, text-shadow 0.3s;
 }
 
 .server-link:hover {
-  color: #00bfff;
-  text-shadow: 0 0 10px #00bfff;
+  color: #45a29e;
+  text-shadow: 0 0 10px #66fcf1;
 }
 
 /* Button styles */
 .button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #1e90ff;
-  color: white;
+  background-color: #66fcf1;
+  color: #0b0c10;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -115,7 +123,7 @@ nav {
 }
 
 .button:hover {
-  background-color: #00bfff;
+  background-color: #45a29e;
   transform: scale(1.05);
 }
 
