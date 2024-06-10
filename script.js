@@ -1,3 +1,13 @@
+document.addEventListener('DOMContentLoaded', function () {
+  const cursorLight = document.createElement('div');
+  cursorLight.classList.add('cursor-light');
+  document.body.appendChild(cursorLight);
+
+  document.addEventListener('mousemove', function (e) {
+    cursorLight.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+  });
+});
+
 let darkModeEnabled = false;
 
 function redirectToDiscord() {
