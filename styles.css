@@ -5,6 +5,7 @@ body {
   background: url('20240610_043444.gif') fixed center/cover no-repeat;
   height: 100vh;
   color: white;
+  backdrop-filter: blur(5px); /* Adding blur effect */
 }
 
 .container {
@@ -46,10 +47,11 @@ body {
   background-color: #1e90ff; /* Bright blue to contrast with the background */
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px; /* Rounded border */
   cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
-button:hover {
+.button:hover {
   background-color: #0d74b3; /* Darker blue on hover */
 }
