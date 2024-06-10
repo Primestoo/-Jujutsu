@@ -2,8 +2,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #111111;
+  background: url('20240610_043444.gif') fixed center/cover no-repeat;
+  height: 100vh;
   color: white;
+  backdrop-filter: blur(5px); /* Adding blur effect */
 }
 
 .container {
@@ -15,12 +17,12 @@ body {
 
 .title1 {
   font-size: 36px;
-  color: #1e90ff;
+  color: #ff4136; /* Red to represent Gojo's Infinity Eyes */
 }
 
 .title2 {
   font-size: 24px;
-  color: #1e90ff;
+  color: #1e90ff; /* Bright blue to represent Gojo's eyes */
   margin-top: 20px;
 }
 
@@ -32,7 +34,7 @@ body {
 .server-link {
   margin-top: 20px;
   font-size: 20px;
-  color: #1e90ff;
+  color: #ff4136; /* Red to complement the background */
   text-decoration: underline;
   cursor: pointer;
 }
@@ -40,13 +42,14 @@ body {
 .button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #1e90ff;
+  background-color: #1e90ff; /* Bright blue */
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px; /* Rounded border */
   cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
-button:hover {
-  background-color: #0d74b3;
+.button:hover {
+  background-color: #0d74b3; /* Darker blue on hover */
 }
