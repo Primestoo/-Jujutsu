@@ -16,7 +16,7 @@ body {
 
 .title1 {
   font-size: 36px;
-  color: #1e90ff;
+  color: #ff4136; /* Red to complement the background */
 }
 
 .title2 {
@@ -35,7 +35,7 @@ body {
 .server-link {
   margin-top: 20px;
   font-size: 20px;
-  color: #1e90ff;
+  color: #1e90ff; /* Bright blue to contrast with the background */
   text-decoration: underline;
   cursor: pointer;
 }
@@ -43,7 +43,7 @@ body {
 .button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #1e90ff;
+  background-color: #1e90ff; /* Bright blue to contrast with the background */
   color: white;
   border: none;
   border-radius: 5px;
@@ -51,5 +51,5 @@ body {
 }
 
 button:hover {
-  background-color: #0d74b3;
+  background-color: #0d74b3; /* Darker blue on hover */
 }
